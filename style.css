@@ -1,0 +1,118 @@
+html {
+    box-sizing:border-box;
+
+
+}
+::before,
+::after {
+    box-sizing:inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration:none ;
+}
+img {
+    max-width: 100%;
+}
+body {
+    min-width: 1200px;
+    font-family: "OpenSans", sans-serif;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+   
+    
+    
+}
+
+.header-logo {
+    position: relative;
+    margin-top: 30px;
+
+   
+}
+.contacts {
+    
+  margin-left: 40px;
+  margin-top: 47px;
+  position: absolute;
+  white-space: nowrap;
+   
+}
+.header-list {
+    margin: 0;
+}
+.header-btn-list {
+    margin: 0;
+}
+.links {
+    flex-wrap: wrap;
+    position: relative;
+    
+    
+}
+.header-list {
+    list-style: none;
+    
+}
+
+.header-btn-list {
+    list-style: none;
+}
+
+.header-list-item:not(:first-child) {
+    margin-left: 45px;
+
+}
+.header-btn-item:first-child {
+    margin-left: 114px;
+    margin-right: 40px;
+}
+.header-btn-item:last-child {
+    margin-right: 45px;
+}
+
+.header-nav {
+    display:flex ;
+  
+    margin-top: 114px;
+    justify-content: center;
+    margin-left:-220px;
+  
+    width: 1170px;
+    height: 70px;
+    border:1px solid black;
+   
+}
+
+.account {
+    white-space:nowrap;
+    position: absolute;
+   margin-left: 788px;
+   margin-top: 47px;
+}
+
+
+.interesting-card  {
+
+}
+
+.interesting-title {
+    display:inline;
+    white-space: nowrap;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 80px 0;
+    width: 1170px;
+}
+
+.services-items {
+    list-style-type: none;
+  
+}
+
